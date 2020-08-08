@@ -6,4 +6,4 @@ with open('./q_token.txt') as f:
 
 header = {'Authorization': 'Bearer {}'.format(qiita_access_token)}
 print(header)
-print("conflict test")
+print("conflict test2")
