@@ -12,7 +12,7 @@ query_params = {
     "per_page":20
 }
 
-response = requests.get(url=url_items, headers =header, params=query_params)
+response = requests.get(url=url_items, headers=header, params=query_params)
 print(response.status_code, type(response.json))
 json = response.json()
 print(json[:][0]["title"])
